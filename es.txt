@@ -1,0 +1,11 @@
+# Create virtual environment
+python -m venv monkey_ai_env
+monkey_ai_env\Scripts\activate  # Windows
+
+# Install required packages
+pip install ultralytics
+pip install torch torchvision
+pip install opencv-python
+pip install matplotlib
+pip install numpy
+pip install pillow

@@ -1,0 +1,18 @@
+monkey_dataset/
+├── images/
+│   ├── train/
+│   │   ├── monkey_001.jpg
+│   │   ├── monkey_002.jpg
+│   │   └── ...
+│   └── val/
+│       ├── monkey_100.jpg
+│       └── ...
+├── labels/
+│   ├── train/
+│   │   ├── monkey_001.txt
+│   │   ├── monkey_002.txt
+│   │   └── ...
+│   └── val/
+│       ├── monkey_100.txt
+│       └── ...
+└── data.yaml

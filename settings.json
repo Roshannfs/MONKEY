@@ -1,0 +1,8 @@
+{
+  "camera_index": 1,
+  "resolution": "640x480",
+  "auto_save": false,
+  "save_folder": "detections",
+  "sound_alerts": true,
+  "log_level": "INFO"
+}

@@ -1,0 +1,5 @@
+# Command line training
+yolo task=detect mode=train model=yolov8n.pt data=monkey_dataset/data.yaml epochs=100 batch=16 name=monkey_detector
+
+# Or use Python script
+python train_monkey_detector.py
