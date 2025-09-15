@@ -78,13 +78,14 @@ if __name__ == "__main__":
 
     # Train model
     model, results = trainer.train_model(
-        dataset_path='monkey_dataset/data.yaml',
+        dataset_path='C:\m\monkey_dataset\data.yaml',
         epochs=100,
         batch_size=16
     )
 
     # Evaluate model
-    metrics = trainer.evaluate_model(model, 'monkey_dataset/data.yaml')
+    
+    metrics = trainer.evaluate_model(model, 'C:\m\monkey_dataset\data.yaml')
 
     # Test on new image
-    trainer.test_detection(model, 'test_monkey_image.jpg')
+    trainer.test_detection(model, 'C:\m\test_images\00M0VYF3VJVK.jpg')
